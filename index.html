@@ -2,7 +2,7 @@
 <html lang="en">
 <head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Colour Contrast Accessibility Matrix</title>
+<title>Color Contrast Accessibility Matrix</title>
 <script>
 // Locally hosted jQuery means unnecessary to be online
 /*! jQuery v3.5.1 -ajax,-ajax/jsonp,-ajax/load,-ajax/script,-ajax/var/location,-ajax/var/nonce,-ajax/var/rquery,-ajax/xhr,-manipulation/_evalUrl,-deprecated/ajax-event-alias,-effects,-effects/Tween,-effects/animatedSelector | (c) JS Foundation and other contributors | jquery.org/license */
@@ -10,8 +10,8 @@
 // jQuery ends
 </script>
 <script>
-// Swap between colour blind emulations
-// Swap between colour blind emulations
+// Swap between color blind emulations
+// Swap between color blind emulations
 function showProta() {
     console.log("\n");
     console.log("Simulating protanopia");
@@ -51,7 +51,7 @@ function showProta() {
     document.getElementById("showTrita").setAttribute("aria-disabled", "false");
     // Display helpful message
     $("#buttonHelp").show();
-    $("#buttonHelp").text("Palette colours now simulate how they may be perceived by someone with protonopia. Protanopia means lacking the red cones for long-wavelength sensitive retinal cone cells. Those affected may be unable to tell the difference between red and green. Blue and yellow shades are more likely to stand out.");
+    $("#buttonHelp").text("Palette colors now simulate how they may be perceived by someone with protonopia. Protanopia means lacking the red cones for long-wavelength sensitive retinal cone cells. Those affected may be unable to tell the difference between red and green. Blue and yellow shades are more likely to stand out.");
 }
 
 function showDeute() {
@@ -90,7 +90,7 @@ function showDeute() {
     document.getElementById("showTrita").setAttribute("aria-disabled", "false");
     // Display helpful message
     $("#buttonHelp").show();
-    $("#buttonHelp").text("Palette colours now simulate how they may be perceived by someone with deuteranopia. Deuteranopia means lacking the green cones for medium-wavelength sensitive retinal cone cells. Those affected may be unable to tell the difference between red and green. Blue and yellow shades are more likely to stand out.");
+    $("#buttonHelp").text("Palette colors now simulate how they may be perceived by someone with deuteranopia. Deuteranopia means lacking the green cones for medium-wavelength sensitive retinal cone cells. Those affected may be unable to tell the difference between red and green. Blue and yellow shades are more likely to stand out.");
 }
 
 function showTrita() {
@@ -129,7 +129,7 @@ function showTrita() {
 
     // Display helpful message
     $("#buttonHelp").show();
-    $("#buttonHelp").text("Palette colours now simulate how they may be perceived by someone with tritanopia. Tritanopia means lacking the blue cones for short-wavelength sensitive retinal cone cells. Those affected may be unable to tell the difference between blue and green, purple and red, and yellow and pink. It also makes colors look less bright.");
+    $("#buttonHelp").text("Palette colors now simulate how they may be perceived by someone with tritanopia. Tritanopia means lacking the blue cones for short-wavelength sensitive retinal cone cells. Those affected may be unable to tell the difference between blue and green, purple and red, and yellow and pink. It also makes colors look less bright.");
 }
 
 function showTrich() {
@@ -167,7 +167,7 @@ function showTrich() {
     document.getElementById("showTrita").setAttribute("aria-disabled", "false");
     // Display helpful message
     $("#buttonHelp").show();
-    $("#buttonHelp").text("Palette colours now simulate how they may be perceived by someone with trichromatic vision. Trichromatic vision is what we consider to be the standard ability to see colours.");
+    $("#buttonHelp").text("Palette colors now simulate how they may be perceived by someone with trichromatic vision. Trichromatic vision is what we consider to be the standard ability to see colors.");
 }
 //Hide button help box by default
 $(document).ready(function() {
@@ -199,7 +199,7 @@ function myFunction() {
         }
     }
 }
-/* // Jquery function to set colours for G, AA and AAA
+/* // Jquery function to set colors for G, AA and AAA
 $(document).ready(function() {
     $("td.ResultG").css('background-color', '#B3DBD2');
     $("td.ResultAA").css('background-color', '#FCBC00');
@@ -309,7 +309,7 @@ $(document).ready(function() {
         document.getElementById("showAAAplus").setAttribute("aria-disabled", "false");
         // Show help message
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Showing only colour combinations for use with user interface components and graphical objects ('G') (≥3:1 contrast), text at AA level (≥4.5:1 contrast) and text at AAA level (≥7:1 contrast).");
+        $("#buttonHelp").text("Showing only color combinations for use with user interface components and graphical objects ('G') (≥3:1 contrast), text at AA level (≥4.5:1 contrast) and text at AAA level (≥7:1 contrast).");
     };
 });
 
@@ -352,7 +352,7 @@ $(document).ready(function() {
         document.getElementById("showAAAplus").setAttribute("aria-disabled", "false");
         // Show help message
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Showing only colour combinations for use with text, user interface components and graphical objects at AA level (≥4.5:1 contrast) and AAA level (≥7:1 contrast).");
+        $("#buttonHelp").text("Showing only color combinations for use with text, user interface components and graphical objects at AA level (≥4.5:1 contrast) and AAA level (≥7:1 contrast).");
     };
 });
 
@@ -401,7 +401,7 @@ $(document).ready(function() {
         document.getElementById("showAAAplus").setAttribute("aria-disabled", "true");
         // Show help message
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Showing only colour combinations for use with text, user interface components and graphical objects at AAA level (≥7:1 contrast).");
+        $("#buttonHelp").text("Showing only color combinations for use with text, user interface components and graphical objects at AAA level (≥7:1 contrast).");
     };
 });
 
@@ -552,8 +552,8 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#myTable tr td:nth-child(1)').addClass('hexCodesColumn');
     $('#myTable tr th:nth-child(1)').addClass('hexCodesColumn');
-    $('#myTable tr td:nth-child(2)').addClass('colourExampleColumn');
-    $('#myTable tr th:nth-child(2)').addClass('colourExampleColumn');
+    $('#myTable tr td:nth-child(2)').addClass('colorExampleColumn');
+    $('#myTable tr th:nth-child(2)').addClass('colorExampleColumn');
     $('#myTable tr td:nth-child(3)').addClass('FFFFFFColumn');
     $('#myTable tr th:nth-child(3)').addClass('FFFFFFColumn');
     $('#myTable tr td:nth-child(4)').addClass('000000Column');
@@ -597,8 +597,8 @@ $(document).ready(function() {
     $.fn._hexCodesColumnHide = function() {
         $('.hexCodesColumn').hide();
     }
-    $.fn._colourExampleColumnHide = function() {
-        $('.colourExampleColumn').hide();
+    $.fn._colorExampleColumnHide = function() {
+        $('.colorExampleColumn').hide();
     }
     $.fn._FFFFFFColumnHide = function() {
         $('.FFFFFFColumn').hide();
@@ -661,8 +661,8 @@ $(document).ready(function() {
     $.fn._hexCodesColumnShow = function() {
         $('.hexCodesColumn').show();
     }
-    $.fn._colourExampleColumnShow = function() {
-        $('.colourExampleColumn').show();
+    $.fn._colorExampleColumnShow = function() {
+        $('.colorExampleColumn').show();
     }
     $.fn._FFFFFFColumnShow = function() {
         $('.FFFFFFColumn').show();
@@ -725,7 +725,7 @@ $(document).ready(function() {
 List of jquery functions to show columns:
 
 $.fn._hexCodesColumnShow();
-$.fn._colourExampleColumnShow();
+$.fn._colorExampleColumnShow();
 $.fn._FFFFFFColumnShow();
 $.fn._000000ColumnShow();
 $.fn._43B02AColumnShow();
@@ -748,7 +748,7 @@ $.fn._833177ColumnShow();
 List of jquery functions to hide columns:
 
 $.fn._hexCodesColumnHide();
-$.fn._colourExampleColumnHide();
+$.fn._colorExampleColumnHide();
 $.fn._FFFFFFColumnHide();
 $.fn._000000ColumnHide();
 $.fn._43B02AColumnHide();
@@ -900,7 +900,7 @@ $(document).ready(function() {
     $.fn.paletteFFFFFF = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to White (#FFFFFF).");
+        $("#buttonHelp").text("Focus color set to White (#FFFFFF).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._43B02AColumnHide();
         $.fn._A3A2A0ColumnHide();
@@ -949,7 +949,7 @@ $(document).ready(function() {
     $.fn.palette000000 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Black (#000000).");
+        $("#buttonHelp").text("Focus color set to Black (#000000).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._115740ColumnHide();
         $.fn._002B49ColumnHide();
@@ -998,7 +998,7 @@ $(document).ready(function() {
     $.fn.palette43B02A = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Lime Green (#43B02A).");
+        $("#buttonHelp").text("Focus color set to Lime Green (#43B02A).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._A3A2A0ColumnHide();
@@ -1047,7 +1047,7 @@ $(document).ready(function() {
     $.fn.palette115740 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Fun Green (#115740).");
+        $("#buttonHelp").text("Focus color set to Fun Green (#115740).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._000000ColumnHide();
         $.fn._002B49ColumnHide();
@@ -1096,7 +1096,7 @@ $(document).ready(function() {
     $.fn.paletteA3A2A0 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Mountain Mist (#A3A2A0).");
+        $("#buttonHelp").text("Focus color set to Mountain Mist (#A3A2A0).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._43B02AColumnHide();
@@ -1145,7 +1145,7 @@ $(document).ready(function() {
     $.fn.paletteEEDC00 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Golden Yellow (#EEDC00).");
+        $("#buttonHelp").text("Focus color set to Golden Yellow (#EEDC00).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._43B02AColumnHide();
@@ -1194,7 +1194,7 @@ $(document).ready(function() {
     $.fn.palette71CC98 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Silver Tree (#71CC98).");
+        $("#buttonHelp").text("Focus color set to Silver Tree (#71CC98).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._43B02AColumnHide();
@@ -1243,7 +1243,7 @@ $(document).ready(function() {
     $.fn.palette002B49 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Prussian Blue (#002B49).");
+        $("#buttonHelp").text("Focus color set to Prussian Blue (#002B49).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._000000ColumnHide();
         $.fn._115740ColumnHide();
@@ -1292,7 +1292,7 @@ $(document).ready(function() {
     $.fn.paletteF9423A = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Red Orange (#F9423A).");
+        $("#buttonHelp").text("Focus color set to Red Orange (#F9423A).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._43B02AColumnHide();
         $.fn._115740ColumnHide();
@@ -1341,7 +1341,7 @@ $(document).ready(function() {
     $.fn.paletteE35205 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Persimmon (#E35205).");
+        $("#buttonHelp").text("Focus color set to Persimmon (#E35205).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._43B02AColumnHide();
         $.fn._115740ColumnHide();
@@ -1390,7 +1390,7 @@ $(document).ready(function() {
     $.fn.palette75787B = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Raven (#75787B).");
+        $("#buttonHelp").text("Focus color set to Raven (#75787B).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._43B02AColumnHide();
         $.fn._115740ColumnHide();
@@ -1439,7 +1439,7 @@ $(document).ready(function() {
     $.fn.palette8DC8E8 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Cornflower (#8DC8E8).");
+        $("#buttonHelp").text("Focus color set to Cornflower (#8DC8E8).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._43B02AColumnHide();
@@ -1488,7 +1488,7 @@ $(document).ready(function() {
     $.fn.palette00AB84 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Persian Green (#00AB84).");
+        $("#buttonHelp").text("Focus color set to Persian Green (#00AB84).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._43B02AColumnHide();
@@ -1537,7 +1537,7 @@ $(document).ready(function() {
     $.fn.palette97D700 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Inch Worm (#97D700).");
+        $("#buttonHelp").text("Focus color set to Inch Worm (#97D700).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._43B02AColumnHide();
@@ -1586,7 +1586,7 @@ $(document).ready(function() {
     $.fn.palette008EAA = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Eastern Blue (#008EAA).");
+        $("#buttonHelp").text("Focus color set to Eastern Blue (#008EAA).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._43B02AColumnHide();
         $.fn._115740ColumnHide();
@@ -1635,7 +1635,7 @@ $(document).ready(function() {
     $.fn.paletteA7ACA2 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Silver Chalice (#A7ACA2).");
+        $("#buttonHelp").text("Focus color set to Silver Chalice (#A7ACA2).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._43B02AColumnHide();
@@ -1684,7 +1684,7 @@ $(document).ready(function() {
     $.fn.paletteC6AA76 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Putty (#C6AA76).");
+        $("#buttonHelp").text("Focus color set to Putty (#C6AA76).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._FFFFFFColumnHide();
         $.fn._43B02AColumnHide();
@@ -1733,7 +1733,7 @@ $(document).ready(function() {
     $.fn.palette833177 = function() {
         $("#checkedAll").prop("checked", false);
         $("#buttonHelp").show();
-        $("#buttonHelp").text("Focus colour set to Dark Purple (#833177).");
+        $("#buttonHelp").text("Focus color set to Dark Purple (#833177).");
         $("#myTable").find("*").removeClass("selected");
         $.fn._000000ColumnHide();
         $.fn._43B02AColumnHide();
@@ -1806,8 +1806,8 @@ $(document).ready(function() {
     $('#myTable tr:nth-child(1) td').addClass('VanityNameRow');
     $('#myTable tr:nth-child(2)').addClass('hexCodesRow');
     $('#myTable tr:nth-child(2) td').addClass('hexCodesRow');
-    $('#myTable tr:nth-child(3)').addClass('colourExampleRow');
-    $('#myTable tr:nth-child(3) td').addClass('colourExampleRow');
+    $('#myTable tr:nth-child(3)').addClass('colorExampleRow');
+    $('#myTable tr:nth-child(3) td').addClass('colorExampleRow');
     $('#myTable tr:nth-child(4)').addClass('FFFFFFRow');
     $('#myTable tr:nth-child(4) td').addClass('FFFFFFRow');
     $('#myTable tr:nth-child(5)').addClass('000000Row');
@@ -2178,146 +2178,146 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('#FFFFFF tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#FFFFFF tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#FFFFFF tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#FFFFFF tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#FFFFFF tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#FFFFFF tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#FFFFFF tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#FFFFFF tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#FFFFFF tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#FFFFFF tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#FFFFFF tr td:nth-child(4)').addClass('mobFFFFFFColumn');
     $('#FFFFFF tr th:nth-child(4)').addClass('mobFFFFFFColumn');
     $('#000000 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#000000 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#000000 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#000000 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#000000 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#000000 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#000000 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#000000 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#000000 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#000000 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#000000 tr td:nth-child(4)').addClass('mob000000Column');
     $('#000000 tr th:nth-child(4)').addClass('mob000000Column');
     $('#43B02A tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#43B02A tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#43B02A tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#43B02A tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#43B02A tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#43B02A tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#43B02A tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#43B02A tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#43B02A tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#43B02A tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#43B02A tr td:nth-child(4)').addClass('mob43B02AColumn');
     $('#43B02A tr th:nth-child(4)').addClass('mob43B02AColumn');
     $('#115740 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#115740 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#115740 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#115740 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#115740 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#115740 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#115740 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#115740 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#115740 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#115740 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#115740 tr td:nth-child(4)').addClass('mob115740Column');
     $('#115740 tr th:nth-child(4)').addClass('mob115740Column');
     $('#A3A2A0 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#A3A2A0 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#A3A2A0 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#A3A2A0 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#A3A2A0 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#A3A2A0 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#A3A2A0 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#A3A2A0 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#A3A2A0 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#A3A2A0 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#A3A2A0 tr td:nth-child(4)').addClass('mobA3A2A0Column');
     $('#A3A2A0 tr th:nth-child(4)').addClass('mobA3A2A0Column');
     $('#EEDC00 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#EEDC00 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#EEDC00 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#EEDC00 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#EEDC00 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#EEDC00 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#EEDC00 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#EEDC00 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#EEDC00 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#EEDC00 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#EEDC00 tr td:nth-child(4)').addClass('mobEEDC00Column');
     $('#EEDC00 tr th:nth-child(4)').addClass('mobEEDC00Column');
     $('#71CC98 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#71CC98 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#71CC98 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#71CC98 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#71CC98 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#71CC98 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#71CC98 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#71CC98 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#71CC98 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#71CC98 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#71CC98 tr td:nth-child(4)').addClass('mob71CC98Column');
     $('#71CC98 tr th:nth-child(4)').addClass('mob71CC98Column');
     $('#002B49 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#002B49 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#002B49 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#002B49 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#002B49 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#002B49 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#002B49 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#002B49 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#002B49 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#002B49 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#002B49 tr td:nth-child(4)').addClass('mob002B49Column');
     $('#002B49 tr th:nth-child(4)').addClass('mob002B49Column');
     $('#F9423A tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#F9423A tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#F9423A tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#F9423A tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#F9423A tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#F9423A tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#F9423A tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#F9423A tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#F9423A tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#F9423A tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#F9423A tr td:nth-child(4)').addClass('mobF9423AColumn');
     $('#F9423A tr th:nth-child(4)').addClass('mobF9423AColumn');
     $('#E35205 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#E35205 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#E35205 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#E35205 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#E35205 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#E35205 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#E35205 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#E35205 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#E35205 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#E35205 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#E35205 tr td:nth-child(4)').addClass('mobE35205Column');
     $('#E35205 tr th:nth-child(4)').addClass('mobE35205Column');
     $('#75787B tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#75787B tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#75787B tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#75787B tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#75787B tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#75787B tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#75787B tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#75787B tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#75787B tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#75787B tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#75787B tr td:nth-child(4)').addClass('mob75787BColumn');
     $('#75787B tr th:nth-child(4)').addClass('mob75787BColumn');
     $('#8DC8E8 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#8DC8E8 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#8DC8E8 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#8DC8E8 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#8DC8E8 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#8DC8E8 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#8DC8E8 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#8DC8E8 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#8DC8E8 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#8DC8E8 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#8DC8E8 tr td:nth-child(4)').addClass('mob8DC8E8Column');
     $('#8DC8E8 tr th:nth-child(4)').addClass('mob8DC8E8Column');
     $('#00AB84 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#00AB84 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#00AB84 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#00AB84 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#00AB84 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#00AB84 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#00AB84 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#00AB84 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#00AB84 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#00AB84 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#00AB84 tr td:nth-child(4)').addClass('mob00AB84Column');
     $('#00AB84 tr th:nth-child(4)').addClass('mob00AB84Column');
     $('#97D700 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#97D700 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#97D700 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#97D700 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#97D700 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#97D700 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#97D700 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#97D700 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#97D700 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#97D700 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#97D700 tr td:nth-child(4)').addClass('mob97D700Column');
     $('#97D700 tr th:nth-child(4)').addClass('mob97D700Column');
     $('#008EAA tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#008EAA tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#008EAA tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#008EAA tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#008EAA tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#008EAA tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#008EAA tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#008EAA tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#008EAA tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#008EAA tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#008EAA tr td:nth-child(4)').addClass('mob008EAAColumn');
     $('#008EAA tr th:nth-child(4)').addClass('mob008EAAColumn');
     $('#A7ACA2 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#A7ACA2 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#A7ACA2 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#A7ACA2 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#A7ACA2 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#A7ACA2 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#A7ACA2 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#A7ACA2 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#A7ACA2 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#A7ACA2 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#A7ACA2 tr td:nth-child(4)').addClass('mobA7ACA2Column');
     $('#A7ACA2 tr th:nth-child(4)').addClass('mobA7ACA2Column');
     $('#C6AA76 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#C6AA76 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#C6AA76 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#C6AA76 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#C6AA76 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#C6AA76 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#C6AA76 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#C6AA76 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#C6AA76 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#C6AA76 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#C6AA76 tr td:nth-child(4)').addClass('mobC6AA76Column');
     $('#C6AA76 tr th:nth-child(4)').addClass('mobC6AA76Column');
     $('#833177 tr td:nth-child(1)').addClass('mobVanityColumn');
     $('#833177 tr th:nth-child(1)').addClass('mobVanityColumn');
-    $('#833177 tr td:nth-child(2)').addClass('mobColourHexColumn');
-    $('#833177 tr th:nth-child(2)').addClass('mobColourHexColumn');
-    $('#833177 tr td:nth-child(3)').addClass('mobColourExampleColumn');
-    $('#833177 tr th:nth-child(3)').addClass('mobColourExampleColumn');
+    $('#833177 tr td:nth-child(2)').addClass('mobColorHexColumn');
+    $('#833177 tr th:nth-child(2)').addClass('mobColorHexColumn');
+    $('#833177 tr td:nth-child(3)').addClass('mobColorExampleColumn');
+    $('#833177 tr th:nth-child(3)').addClass('mobColorExampleColumn');
     $('#833177 tr td:nth-child(4)').addClass('mob833177Column');
     $('#833177 tr th:nth-child(4)').addClass('mob833177Column');
 });
@@ -2325,10 +2325,10 @@ $(document).ready(function() {
 
 // Add classes to Mobile rows using jquery
 $(document).ready(function() {
-    $('#FFFFFF tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#FFFFFF tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#FFFFFF tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#FFFFFF tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#FFFFFF tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#FFFFFF tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#FFFFFF tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#FFFFFF tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#FFFFFF tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#FFFFFF tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#FFFFFF tr:nth-child(4) th').addClass('mob000000Row');
@@ -2365,10 +2365,10 @@ $(document).ready(function() {
     $('#FFFFFF tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#FFFFFF tr:nth-child(20) th').addClass('mob833177Row');
     $('#FFFFFF tr:nth-child(20) td').addClass('mob833177Row');
-    $('#000000 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#000000 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#000000 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#000000 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#000000 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#000000 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#000000 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#000000 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#000000 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#000000 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#000000 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2405,10 +2405,10 @@ $(document).ready(function() {
     $('#000000 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#000000 tr:nth-child(20) th').addClass('mob833177Row');
     $('#000000 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#43B02A tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#43B02A tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#43B02A tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#43B02A tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#43B02A tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#43B02A tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#43B02A tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#43B02A tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#43B02A tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#43B02A tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#43B02A tr:nth-child(4) th').addClass('mob000000Row');
@@ -2445,10 +2445,10 @@ $(document).ready(function() {
     $('#43B02A tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#43B02A tr:nth-child(20) th').addClass('mob833177Row');
     $('#43B02A tr:nth-child(20) td').addClass('mob833177Row');
-    $('#115740 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#115740 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#115740 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#115740 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#115740 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#115740 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#115740 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#115740 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#115740 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#115740 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#115740 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2485,10 +2485,10 @@ $(document).ready(function() {
     $('#115740 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#115740 tr:nth-child(20) th').addClass('mob833177Row');
     $('#115740 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#A3A2A0 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#A3A2A0 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#A3A2A0 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#A3A2A0 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#A3A2A0 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#A3A2A0 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#A3A2A0 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#A3A2A0 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#A3A2A0 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#A3A2A0 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#A3A2A0 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2525,10 +2525,10 @@ $(document).ready(function() {
     $('#A3A2A0 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#A3A2A0 tr:nth-child(20) th').addClass('mob833177Row');
     $('#A3A2A0 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#EEDC00 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#EEDC00 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#EEDC00 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#EEDC00 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#EEDC00 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#EEDC00 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#EEDC00 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#EEDC00 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#EEDC00 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#EEDC00 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#EEDC00 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2565,10 +2565,10 @@ $(document).ready(function() {
     $('#EEDC00 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#EEDC00 tr:nth-child(20) th').addClass('mob833177Row');
     $('#EEDC00 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#71CC98 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#71CC98 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#71CC98 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#71CC98 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#71CC98 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#71CC98 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#71CC98 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#71CC98 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#71CC98 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#71CC98 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#71CC98 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2605,10 +2605,10 @@ $(document).ready(function() {
     $('#71CC98 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#71CC98 tr:nth-child(20) th').addClass('mob833177Row');
     $('#71CC98 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#002B49 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#002B49 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#002B49 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#002B49 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#002B49 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#002B49 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#002B49 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#002B49 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#002B49 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#002B49 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#002B49 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2645,10 +2645,10 @@ $(document).ready(function() {
     $('#002B49 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#002B49 tr:nth-child(20) th').addClass('mob833177Row');
     $('#002B49 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#F9423A tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#F9423A tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#F9423A tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#F9423A tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#F9423A tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#F9423A tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#F9423A tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#F9423A tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#F9423A tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#F9423A tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#F9423A tr:nth-child(4) th').addClass('mob000000Row');
@@ -2685,10 +2685,10 @@ $(document).ready(function() {
     $('#F9423A tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#F9423A tr:nth-child(20) th').addClass('mob833177Row');
     $('#F9423A tr:nth-child(20) td').addClass('mob833177Row');
-    $('#E35205 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#E35205 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#E35205 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#E35205 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#E35205 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#E35205 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#E35205 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#E35205 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#E35205 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#E35205 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#E35205 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2725,10 +2725,10 @@ $(document).ready(function() {
     $('#E35205 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#E35205 tr:nth-child(20) th').addClass('mob833177Row');
     $('#E35205 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#75787B tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#75787B tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#75787B tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#75787B tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#75787B tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#75787B tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#75787B tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#75787B tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#75787B tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#75787B tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#75787B tr:nth-child(4) th').addClass('mob000000Row');
@@ -2765,10 +2765,10 @@ $(document).ready(function() {
     $('#75787B tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#75787B tr:nth-child(20) th').addClass('mob833177Row');
     $('#75787B tr:nth-child(20) td').addClass('mob833177Row');
-    $('#8DC8E8 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#8DC8E8 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#8DC8E8 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#8DC8E8 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#8DC8E8 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#8DC8E8 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#8DC8E8 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#8DC8E8 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#8DC8E8 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#8DC8E8 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#8DC8E8 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2805,10 +2805,10 @@ $(document).ready(function() {
     $('#8DC8E8 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#8DC8E8 tr:nth-child(20) th').addClass('mob833177Row');
     $('#8DC8E8 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#00AB84 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#00AB84 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#00AB84 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#00AB84 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#00AB84 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#00AB84 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#00AB84 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#00AB84 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#00AB84 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#00AB84 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#00AB84 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2845,10 +2845,10 @@ $(document).ready(function() {
     $('#00AB84 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#00AB84 tr:nth-child(20) th').addClass('mob833177Row');
     $('#00AB84 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#97D700 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#97D700 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#97D700 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#97D700 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#97D700 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#97D700 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#97D700 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#97D700 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#97D700 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#97D700 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#97D700 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2885,10 +2885,10 @@ $(document).ready(function() {
     $('#97D700 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#97D700 tr:nth-child(20) th').addClass('mob833177Row');
     $('#97D700 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#008EAA tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#008EAA tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#008EAA tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#008EAA tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#008EAA tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#008EAA tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#008EAA tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#008EAA tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#008EAA tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#008EAA tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#008EAA tr:nth-child(4) th').addClass('mob000000Row');
@@ -2925,10 +2925,10 @@ $(document).ready(function() {
     $('#008EAA tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#008EAA tr:nth-child(20) th').addClass('mob833177Row');
     $('#008EAA tr:nth-child(20) td').addClass('mob833177Row');
-    $('#A7ACA2 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#A7ACA2 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#A7ACA2 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#A7ACA2 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#A7ACA2 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#A7ACA2 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#A7ACA2 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#A7ACA2 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#A7ACA2 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#A7ACA2 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#A7ACA2 tr:nth-child(4) th').addClass('mob000000Row');
@@ -2965,10 +2965,10 @@ $(document).ready(function() {
     $('#A7ACA2 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#A7ACA2 tr:nth-child(20) th').addClass('mob833177Row');
     $('#A7ACA2 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#C6AA76 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#C6AA76 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#C6AA76 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#C6AA76 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#C6AA76 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#C6AA76 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#C6AA76 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#C6AA76 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#C6AA76 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#C6AA76 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#C6AA76 tr:nth-child(4) th').addClass('mob000000Row');
@@ -3005,10 +3005,10 @@ $(document).ready(function() {
     $('#C6AA76 tr:nth-child(19) td').addClass('mobC6AA76Row');
     $('#C6AA76 tr:nth-child(20) th').addClass('mob833177Row');
     $('#C6AA76 tr:nth-child(20) td').addClass('mob833177Row');
-    $('#833177 tr:nth-child(1) th').addClass('mobColourNameRow');
-    $('#833177 tr:nth-child(1) td').addClass('mobColourNameRow');
-    $('#833177 tr:nth-child(2) th').addClass('mobColourExampleRow');
-    $('#833177 tr:nth-child(2) td').addClass('mobColourExampleRow');
+    $('#833177 tr:nth-child(1) th').addClass('mobColorNameRow');
+    $('#833177 tr:nth-child(1) td').addClass('mobColorNameRow');
+    $('#833177 tr:nth-child(2) th').addClass('mobColorExampleRow');
+    $('#833177 tr:nth-child(2) td').addClass('mobColorExampleRow');
     $('#833177 tr:nth-child(3) th').addClass('mobFFFFFFRow');
     $('#833177 tr:nth-child(3) td').addClass('mobFFFFFFRow');
     $('#833177 tr:nth-child(4) th').addClass('mob000000Row');
@@ -4208,7 +4208,7 @@ $(document).ready(function() {
         border: 0px solid #000000 !important;
     }
 
-    /* Colour of column and row headings */
+    /* Color of column and row headings */
     th {
         background: #231F20 !important;
         color: #E1E8EC !important;
@@ -4481,7 +4481,7 @@ th {
     outline: 0.3rem solid black;
 }
 
-/* Background colour of main page */
+/* Background color of main page */
 body {
     background: #FFFFF4;
     color: #00131D;
@@ -4659,7 +4659,7 @@ tr:first-child {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* Colour of column and row headings */
+/* Color of column and row headings */
 th {
     background: #E1E8EC;
 }
@@ -4689,17 +4689,17 @@ th {
 }
 
 
-/* Make mobile colour column 1 rem wide */
+/* Make mobile color column 1 rem wide */
 .mobileMat tbody > tr > :nth-child(3) {
     width: 2rem;
 }
-/* Make mobile colour column 1 rem wide */
+/* Make mobile color column 1 rem wide */
 /* In case of no vanity name */
 .mobileMat tbody > tr > :nth-child(2) {
     width: 2rem;
 }
 
-/* Make mobile colour row 1 rem high */
+/* Make mobile color row 1 rem high */
 .mobileMat tbody > :nth-child(2) {
     height: 1rem;
 }
@@ -4886,11 +4886,11 @@ div#linksToExamples {
 <div id="mainHeader">
 </div>
 
-<h1>Accessibility Matrix for College of DuPage Brand Colour Palette</h1>
+<h1>Accessibility Matrix for College of DuPage Brand Color Palette</h1>
 </div>
 <div id="afterHeader">
 <div id="explanation">
-<p>When we use our brand palette, we must ensure that the colours we choose for text and graphics have enough contrast to the background colour. Doing so means that the materials we create will be accessible to the largest audience. The table below lists all brand colour combinations. It shows which pairings have the required level of contrast for different uses. These uses include:</p>
+<p>When we use our brand palette, we must ensure that the colors we choose for text and graphics have enough contrast to the background color. Doing so means that the materials we create will be accessible to the largest audience. The table below lists all brand color combinations. It shows which pairings have the required level of contrast for different uses. These uses include:</p>
 <ul>
 <li>graphics and user interface elements</li>
 <li>text and images of text.</li>
@@ -4900,7 +4900,7 @@ div#linksToExamples {
 
 
 <div id="linksToExamples">
-<p>View all examples of colour combinations suitable for: <a href="G.html">Graphical objects</a>, <a href="AA.html">text minimum (AA and AAA)</a>, and <a href="AAA.html">text enhanced (AAA)</a>.</p>
+<p>View all examples of color combinations suitable for: <a href="G.html">Graphical objects</a>, <a href="AA.html">text minimum (AA and AAA)</a>, and <a href="AAA.html">text enhanced (AAA)</a>.</p>
 </div>
 </header>
 <nav>
@@ -4953,8 +4953,8 @@ div#linksToExamples {
 		<input type="radio" id="combo" name="presentation" value="Rating and ratio" onclick="$.fn.showCombo()" />
 		   <label for="combo" class="radio">Rating and ratio</label>
               </fieldset>
-               <fieldset id="simulateColour" class="ctrl2">
-                  <legend>Simulate colour vision deficiency</legend>
+               <fieldset id="simulateColor" class="ctrl2">
+                  <legend>Simulate color vision deficiency</legend>
                   <button id="showTrich" type="button" onclick="showTrich()" aria-disabled="true" disabled>Reset to trichromacy</button>
                   <button id="showProta" type="button" onclick="showProta()" aria-disabled="false">Simulate protanopia</button>
                   <button id="showDeute" type="button" onclick="showDeute()" aria-disabled="false">Simulate deuteranopia</button>
@@ -4991,25 +4991,25 @@ div#linksToExamples {
 
 <!-- End Inputs -->
 <!-- Begin Palette Buttons -->
-<fieldset class="selectPalettes"><legend>Choose focus colour</legend>
-<button id="focusFFFFFF" class="focusColour" type="button" onclick="$.fn.paletteFFFFFF()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #FFFFFF">&nbsp;&nbsp;&nbsp;</span> White</button>
-<button id="focus000000" class="focusColour" type="button" onclick="$.fn.palette000000()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #000000">&nbsp;&nbsp;&nbsp;</span> Black</button>
-<button id="focus43B02A" class="focusColour" type="button" onclick="$.fn.palette43B02A()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #43B02A">&nbsp;&nbsp;&nbsp;</span> Lime Green</button>
-<button id="focus115740" class="focusColour" type="button" onclick="$.fn.palette115740()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #115740">&nbsp;&nbsp;&nbsp;</span> Fun Green</button>
-<button id="focusA3A2A0" class="focusColour" type="button" onclick="$.fn.paletteA3A2A0()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #A3A2A0">&nbsp;&nbsp;&nbsp;</span> Mountain Mist</button>
-<button id="focusEEDC00" class="focusColour" type="button" onclick="$.fn.paletteEEDC00()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #EEDC00">&nbsp;&nbsp;&nbsp;</span> Golden Yellow</button>
-<button id="focus71CC98" class="focusColour" type="button" onclick="$.fn.palette71CC98()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #71CC98">&nbsp;&nbsp;&nbsp;</span> Silver Tree</button>
-<button id="focus002B49" class="focusColour" type="button" onclick="$.fn.palette002B49()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #002B49">&nbsp;&nbsp;&nbsp;</span> Prussian Blue</button>
-<button id="focusF9423A" class="focusColour" type="button" onclick="$.fn.paletteF9423A()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #F9423A">&nbsp;&nbsp;&nbsp;</span> Red Orange</button>
-<button id="focusE35205" class="focusColour" type="button" onclick="$.fn.paletteE35205()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #E35205">&nbsp;&nbsp;&nbsp;</span> Persimmon</button>
-<button id="focus75787B" class="focusColour" type="button" onclick="$.fn.palette75787B()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #75787B">&nbsp;&nbsp;&nbsp;</span> Raven</button>
-<button id="focus8DC8E8" class="focusColour" type="button" onclick="$.fn.palette8DC8E8()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #8DC8E8">&nbsp;&nbsp;&nbsp;</span> Cornflower</button>
-<button id="focus00AB84" class="focusColour" type="button" onclick="$.fn.palette00AB84()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #00AB84">&nbsp;&nbsp;&nbsp;</span> Persian Green</button>
-<button id="focus97D700" class="focusColour" type="button" onclick="$.fn.palette97D700()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #97D700">&nbsp;&nbsp;&nbsp;</span> Inch Worm</button>
-<button id="focus008EAA" class="focusColour" type="button" onclick="$.fn.palette008EAA()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #008EAA">&nbsp;&nbsp;&nbsp;</span> Eastern Blue</button>
-<button id="focusA7ACA2" class="focusColour" type="button" onclick="$.fn.paletteA7ACA2()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #A7ACA2">&nbsp;&nbsp;&nbsp;</span> Silver Chalice</button>
-<button id="focusC6AA76" class="focusColour" type="button" onclick="$.fn.paletteC6AA76()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #C6AA76">&nbsp;&nbsp;&nbsp;</span> Putty</button>
-<button id="focus833177" class="focusColour" type="button" onclick="$.fn.palette833177()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #833177">&nbsp;&nbsp;&nbsp;</span> Dark Purple</button>
+<fieldset class="selectPalettes"><legend>Choose focus color</legend>
+<button id="focusFFFFFF" class="focusColor" type="button" onclick="$.fn.paletteFFFFFF()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #FFFFFF">&nbsp;&nbsp;&nbsp;</span> White</button>
+<button id="focus000000" class="focusColor" type="button" onclick="$.fn.palette000000()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #000000">&nbsp;&nbsp;&nbsp;</span> Black</button>
+<button id="focus43B02A" class="focusColor" type="button" onclick="$.fn.palette43B02A()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #43B02A">&nbsp;&nbsp;&nbsp;</span> Lime Green</button>
+<button id="focus115740" class="focusColor" type="button" onclick="$.fn.palette115740()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #115740">&nbsp;&nbsp;&nbsp;</span> Fun Green</button>
+<button id="focusA3A2A0" class="focusColor" type="button" onclick="$.fn.paletteA3A2A0()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #A3A2A0">&nbsp;&nbsp;&nbsp;</span> Mountain Mist</button>
+<button id="focusEEDC00" class="focusColor" type="button" onclick="$.fn.paletteEEDC00()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #EEDC00">&nbsp;&nbsp;&nbsp;</span> Golden Yellow</button>
+<button id="focus71CC98" class="focusColor" type="button" onclick="$.fn.palette71CC98()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #71CC98">&nbsp;&nbsp;&nbsp;</span> Silver Tree</button>
+<button id="focus002B49" class="focusColor" type="button" onclick="$.fn.palette002B49()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #002B49">&nbsp;&nbsp;&nbsp;</span> Prussian Blue</button>
+<button id="focusF9423A" class="focusColor" type="button" onclick="$.fn.paletteF9423A()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #F9423A">&nbsp;&nbsp;&nbsp;</span> Red Orange</button>
+<button id="focusE35205" class="focusColor" type="button" onclick="$.fn.paletteE35205()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #E35205">&nbsp;&nbsp;&nbsp;</span> Persimmon</button>
+<button id="focus75787B" class="focusColor" type="button" onclick="$.fn.palette75787B()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #75787B">&nbsp;&nbsp;&nbsp;</span> Raven</button>
+<button id="focus8DC8E8" class="focusColor" type="button" onclick="$.fn.palette8DC8E8()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #8DC8E8">&nbsp;&nbsp;&nbsp;</span> Cornflower</button>
+<button id="focus00AB84" class="focusColor" type="button" onclick="$.fn.palette00AB84()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #00AB84">&nbsp;&nbsp;&nbsp;</span> Persian Green</button>
+<button id="focus97D700" class="focusColor" type="button" onclick="$.fn.palette97D700()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #97D700">&nbsp;&nbsp;&nbsp;</span> Inch Worm</button>
+<button id="focus008EAA" class="focusColor" type="button" onclick="$.fn.palette008EAA()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #008EAA">&nbsp;&nbsp;&nbsp;</span> Eastern Blue</button>
+<button id="focusA7ACA2" class="focusColor" type="button" onclick="$.fn.paletteA7ACA2()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #A7ACA2">&nbsp;&nbsp;&nbsp;</span> Silver Chalice</button>
+<button id="focusC6AA76" class="focusColor" type="button" onclick="$.fn.paletteC6AA76()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #C6AA76">&nbsp;&nbsp;&nbsp;</span> Putty</button>
+<button id="focus833177" class="focusColor" type="button" onclick="$.fn.palette833177()"><span class="colorBox Trichromacy" aria-hidden="true" style="background-color: #833177">&nbsp;&nbsp;&nbsp;</span> Dark Purple</button>
 </fieldset>
 <!-- End Palette Buttons -->
 <div id="buttonHelp" aria-live="polite"></div><br />
@@ -5018,7 +5018,7 @@ div#linksToExamples {
 <main id="main">
 <div id="Matrix"><table id="myTable">
 <caption>
-Colour Accessibility Matrix.  Foreground colours are the columns, background colours are the rows.  Where a foreground column and background row intersect the cell shows the Web Content Accessibility Guidline (WCAG) contrast complicance level of the two colours when used together.
+Color Accessibility Matrix.  Foreground colors are the columns, background colors are the rows.  Where a foreground column and background row intersect the cell shows the Web Content Accessibility Guidline (WCAG) contrast complicance level of the two colors when used together.
 </caption>
 
 <tr id="VanityLine">
@@ -7752,7 +7752,7 @@ Explaining the matrix.</caption>
 <td style="text-align: center;"><span class="cellF wcagVisible">F</span></td>
 <td><strong>FAIL - 224 of 324 combinations (69%).</strong>
 <ul>
-<li>Colour combination should not be used for user interface (UI) components or graphical objects where no text is used, nor for the visual representation of text.</li></ul></td>
+<li>Color combination should not be used for user interface (UI) components or graphical objects where no text is used, nor for the visual representation of text.</li></ul></td>
 </tr>
 <tr>
 <td id="explainG" style="background-color: #B3DBD2; text-align: center;"><span class="cellG wcagVisible">G</span></td>
@@ -7760,7 +7760,7 @@ Explaining the matrix.</caption>
 <ul>
 <li>Suitable for User Interface Components and Graphical Objects where no text is used (<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast</a>).</li>
 <li>Suitable for large-scale text (at least 18 point if not bold and at least 14 point if bold) and images of large-scale text (<a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG 2.1 Success Criterion 1.4.3 Contrast (Minimum)</a>.</li>
-<li>View all examples of <a href="G.html">brand colour combinations with a ratio of 3:1 and above</a>.</li>
+<li>View all examples of <a href="G.html">brand color combinations with a ratio of 3:1 and above</a>.</li>
 </ul>
 </td>
 </tr>
@@ -7771,7 +7771,7 @@ Explaining the matrix.</caption>
 <li>Suitable for the visual representation of text and images of text to minimum level (<a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html">WCAG 2.1 Success Criterion 1.4.3 Contrast (Minimum)</a>.</li>
 <li>Suitable for large-scale text (at least 18 point if not bold and at least 14 point if bold) and images of large-scale text (<a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced">WCAG 2.1 Success Criterion 1.4.6 Contrast (Enhanced)</a></li>
 <li>Suitable for User Interface Components and Graphical Objects where no text is used (<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast)</a></li>
-<li>View all examples of <a href="AA.html">brand colour combinations with a ratio of 4.5:1 and above</a>.</li>
+<li>View all examples of <a href="AA.html">brand color combinations with a ratio of 4.5:1 and above</a>.</li>
 </ul>
 </td>
 </tr>
@@ -7781,7 +7781,7 @@ Explaining the matrix.</caption>
 <ul>
 <li>Suitable for the visual representation of text and images of text at enhanced level (<a href="https://www.w3.org/WAI/WCAG21/Understanding/contrast-enhanced">WCAG 2.1 Success Criterion 1.4.6 Contrast (Enhanced)</a>.</li>
 <li>Suitable for User Interface Components and Graphical Objects where no text is used (<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html">WCAG 2.1 Success Criterion 1.4.11 Non-text Contrast</a>).</li>
-<li>View all examples of <a href="AAA.html">brand colour combinations with a ratio of 7:1 and above</a>.</li> 
+<li>View all examples of <a href="AAA.html">brand color combinations with a ratio of 7:1 and above</a>.</li> 
 </ul>
 </td>
 </tr>
@@ -7803,12 +7803,12 @@ Explaining the matrix.</caption>
 <footer>
 <div id="viewExamples">
 <details>
-	<summary>View examples of all accessible colour combinations.</summary>
-			<p>To help to choose accessible colour combinations follow these links to view examples of each possible accessible colour combination.</p>
+	<summary>View examples of all accessible color combinations.</summary>
+			<p>To help to choose accessible color combinations follow these links to view examples of each possible accessible color combination.</p>
 				<ul>
-					<li><a href="G.html">View all examples of brand colour combinations with a ratio of 3:1 and above (G rating)</a>.</li>
-					<li><a href="AA.html">View all examples of brand colour combinations with a ratio of 4.5:1 and above (AA rating)</a>.</li>
-					<li><a href="AAA.html">View all examples of brand colour combinations with a ratio of 7:1 and above (AAA rating)</a>.</li>
+					<li><a href="G.html">View all examples of brand color combinations with a ratio of 3:1 and above (G rating)</a>.</li>
+					<li><a href="AA.html">View all examples of brand color combinations with a ratio of 4.5:1 and above (AA rating)</a>.</li>
+					<li><a href="AAA.html">View all examples of brand color combinations with a ratio of 7:1 and above (AAA rating)</a>.</li>
 				</ul>
 </details>
 </div>
@@ -7816,9 +7816,9 @@ Explaining the matrix.</caption>
 <details>
 	<summary>Download the data.</summary>
 		<ul>
-			<li><a href="resultsA.csv">Colour contrast matrix using F, G, AA, and AAA ratings (Comma Separated File)</a>.</li>
-			<li><a href="results.csv">Colour contrast matrix showing contrast ratios (Comma Separated File)</a>.</li>
-			<li><a href="All-DB.csv">Full dataset showing every colour combination, its contrast ratio and rating (Comma Separated File)</a>.</li>
+			<li><a href="resultsA.csv">Color contrast matrix using F, G, AA, and AAA ratings (Comma Separated File)</a>.</li>
+			<li><a href="results.csv">Color contrast matrix showing contrast ratios (Comma Separated File)</a>.</li>
+			<li><a href="All-DB.csv">Full dataset showing every color combination, its contrast ratio and rating (Comma Separated File)</a>.</li>
 		</ul>
 </details>
 </div>
@@ -7826,26 +7826,26 @@ Explaining the matrix.</caption>
 <details>
     <summary>Want to learn more?</summary>
 <figure>
-    <figcaption>Why is Colour Contrast important?</figcaption>
+    <figcaption>Why is Color Contrast important?</figcaption>
 <ul>
 <li><a href="https://cultureconnectme.com/color/">Accessibility 101: Color Contrast</a>.</li>
 <li><a href="https://www.smashingmagazine.com/2014/10/color-contrast-tips-and-tools-for-accessibility/">Color Contrast And Why You Should Rethink It</a>.</li>
-<li><a href="https://www.laurastoker.co.uk/blog/colour-contrast-accessibility">What is colour contrast accessibility? 5 questions and answers.</a>.</li>
-<li><a href="https://24ways.org/2012/colour-accessibility/">Colour Accessibility</a>.</li>
+<li><a href="https://www.laurastoker.co.uk/blog/color-contrast-accessibility">What is color contrast accessibility? 5 questions and answers.</a>.</li>
+<li><a href="https://24ways.org/2012/color-accessibility/">Color Accessibility</a>.</li>
 <li><a href="https://webaim.org/articles/contrast/evaluating">Contrast and Color Accessibility</a>.</li>
 </ul>
 </figure>
 <figure>
     <figcaption>Useful tools</figcaption>
 <ul>
-<li><a href="https://whocanuse.com/">Use "Who can use.com"</a> to find out the contrast of two colours and how this impacts those with visual impairments.</li>
-<li><a href="https://github.com/microsoft/PowerToys/releases/">PowerToys for Windows 10</a> has a fantastic colour picker tool, this helps you identify colour codes.</li>
-<li><a href="https://www.howtogeek.com/228506/how-to-find-the-color-value-for-anything-on-your-mac%E2%80%99s-screen/">How pick colour codes on a Mac</a>.</li>
-<li><a href="https://www.rgbtohex.net/">Convert RGB colour codes to HTML/Hex colour codes</a>.</li>
-<li><a href="https://www.rgbtohex.net/hextorgb/">Convert HTML/Hex colour codes to RGB colour codes</a>.</li>
-<li><a href="http://colorsafe.co/">"Color Safe"</a> Find accessible colours that contrast with a specific colour you wish to you.</li>
-<li><a href="https://contrast-finder.tanaguru.com/">"tanaguru contrast finder"</a>: Find good contrast options between two colours you specify.</li>
-<li><a href="https://colorbox.io/">ColorBox</a> can help you to design a new accessible colour palette. This <a href="https://kvyn.medium.com/introducing-the-new-colorbox-e0109c021729">explanatory blog post</a> is useful to read first.</li>
+<li><a href="https://whocanuse.com/">Use "Who can use.com"</a> to find out the contrast of two colors and how this impacts those with visual impairments.</li>
+<li><a href="https://github.com/microsoft/PowerToys/releases/">PowerToys for Windows 10</a> has a fantastic color picker tool, this helps you identify color codes.</li>
+<li><a href="https://www.howtogeek.com/228506/how-to-find-the-color-value-for-anything-on-your-mac%E2%80%99s-screen/">How pick color codes on a Mac</a>.</li>
+<li><a href="https://www.rgbtohex.net/">Convert RGB color codes to HTML/Hex color codes</a>.</li>
+<li><a href="https://www.rgbtohex.net/hextorgb/">Convert HTML/Hex color codes to RGB color codes</a>.</li>
+<li><a href="http://colorsafe.co/">"Color Safe"</a> Find accessible colors that contrast with a specific color you wish to you.</li>
+<li><a href="https://contrast-finder.tanaguru.com/">"tanaguru contrast finder"</a>: Find good contrast options between two colors you specify.</li>
+<li><a href="https://colorbox.io/">ColorBox</a> can help you to design a new accessible color palette. This <a href="https://kvyn.medium.com/introducing-the-new-colorbox-e0109c021729">explanatory blog post</a> is useful to read first.</li>
 <li><a href="https://css-tricks.com/nailing-the-perfect-contrast-between-light-text-and-a-background-image/">Find the Perfect Contrast Between Light Text and a Background Image</a>.</li>
 </ul>
 </figure>
@@ -7871,11 +7871,11 @@ Explaining the matrix.</caption>
 <div id="credits">
 <details>
     <summary>Credits</summary>
-<p>When you use colours from a defined palette, such as a corporate brand, you should make accessible choices. This colour accessibility matrix helps you do this. A custom <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">bash script</a> created by <a href="https://www.linkedin.com/in/mattdeeprose/">Matthew Deeprose</a>, Senior Learning Designer at the University of Southampton, generated this web page.</p>
+<p>When you use colors from a defined palette, such as a corporate brand, you should make accessible choices. This color accessibility matrix helps you do this. A custom <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">bash script</a> created by <a href="https://www.linkedin.com/in/mattdeeprose/">Matthew Deeprose</a>, Senior Learning Designer at the University of Southampton, generated this web page.</p>
 <br />
 <p>Additional tools used are:</p>
 <ul>
-<li><a href="https://webaim.org/resources/contrastchecker/?fcolor=0000FF&bcolor=FFFFFF&api">WebAIM Colour Contrast API</a>.</li>
+<li><a href="https://webaim.org/resources/contrastchecker/?fcolor=0000FF&bcolor=FFFFFF&api">WebAIM Color Contrast API</a>.</li>
 <li><a href="https://stedolan.github.io/jq/">JQ</a> by <a href="https://github.com/stedolan">Stephen Dolan</a> and others.</li>
 <li><a href="https://github.com/janloeffler/csvtool">csvtool</a> by <a href="https://github.com/janloeffler">Jan Loeffler</a>.</li>
 <li><a href="https://sourceforge.net/projects/command-output-to-html-table/">Tabulate.sh</a> by <a href="https://sourceforge.net/u/nathan-sr/profile/">Nathan S.R.</a></li>
@@ -7887,7 +7887,7 @@ Explaining the matrix.</caption>
 </details>
 </div>
 <div id="CC">
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Colour Accessibility Matrix</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Matthew Deeprose</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Color Accessibility Matrix</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Matthew Deeprose</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 </div>
 </footer>
 		  <svg style='height: 0; width: 0; padding: 0; margin: 0; line-height: 0;'>
