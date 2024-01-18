@@ -12,17 +12,17 @@
     }
     
    .selected {
-        border: 2px --COD-neutral1 dashed !important;
+        border: 2px var(--COD-neutral) 1 dashed !important;
     }
 
     .colorBox {
-        border: --COD-neutral2 2px solid !important;
+        border: var(--COD-neutral2) 2px solid !important;
     }
 v
     button:disabled,
 	button[disabled] {
         pointer-events: none;
-        color: --COD-neutral2 !important;
+        color: var(--COD-neutral2) !important;
         border: 0px !important;
         background-image: none;
         background-repeat: repeat;
@@ -33,48 +33,48 @@ v
     }
 
     fieldset {
-        border: --COD-neutral3 solid 1px;
+        border: var(--COD-neutral3) solid 1px;
     }
 
     legend {
-        color: --COD-neutral1;
-        border: --COD-neutral3 solid 1px;
+        color: var(--COD-neutral1);
+        border: var(--COD-neutral3) solid 1px;
     }
 
     td.ResultG {
-        background-color: --COD-neutral4 !important;
-        color: --COD-accent2;
+        background-color: var(--COD-neutral4) !important;
+        color: var(--COD-accent2);
         font-weight: bold;
     }
 
     td.ResultAA {
-        background-color: --COD-neutral4 !important;
-        color: --COD-primary;
+        background-color: var(--COD-neutral4) !important;
+        color: var(--COD-primary);
     }
 
     td.ResultAAA {
-        background-color: --COD-neutral4 !important;
-        color: --COD-accent;
+        background-color: var(--COD-neutral4) !important;
+        color: var(--COD-accent);
     }
 
     td#explainG {
-        background-color: --COD-neutral4 !important;
-        color: --COD-accent2;
+        background-color: var(--COD-neutral4) !important;
+        color: var(--COD-accent2);
     }
 
     td#explainAA {
-        background-color: --COD-neutral4 !important;
-        color: --COD-primary;
+        background-color: var(--COD-neutral4) !important;
+        color: var(--COD-primary);
     }
 
     td#explainAAA {
-        background-color: --COD-neutral4 !important;
-        color: --COD-accent;
+        background-color: var(--COD-neutral4) !important;
+        color: var(--COD-accent);
     }
 
     #myTable td:hover::before,
     #myTable .row:hover::before {
-        outline: 0.0rem dotted --COD-primary !important;
+        outline: 0.0rem dotted var(--COD-primary) !important;
         content: '\00a0';
         height: 100%;
         left: -5000px;
@@ -86,7 +86,7 @@ v
 
     #myTable td:hover::after,
     #myTable .col:hover::after {
-        outline: 0.4rem dotted --COD-primary !important;
+        outline: 0.4rem dotted var(--COD-primary) !important;
         content: '\00a0';
         height: 8999px;
         left: 0;
@@ -98,22 +98,22 @@ v
 
     #myTable tr:hover,
     .mobileMat tr:hover {
-        outline: 0.4rem dotted --COD-primary !important;
+        outline: 0.4rem dotted var(--COD-primary) !important;
     }
 
     body {
-        color: --COD-neutral2 !important;
-        background: --COD-neutral4 !important;
+        color: var(--COD-neutral2) !important;
+        background: var(--COD-neutral4) !important;
     }
 
     a,
     a:visited {
-        color: --COD-primary !important;
+        color: var(--COD-primary) !important;
         font-weight: bold;
     }
 
     a:hover {
-        color: --COD-secondary !important;
+        color: var(--COD-secondary) !important;
         text-decoration: none;
     }
     /* Table styling START AGAIN HERE FOR HEX VARIABLES */ 
@@ -130,50 +130,50 @@ v
     /* Styling buttons */
     button {
         border: 1px solid #9FB1BD !important;
-        color: --COD-neutral2 !important;
+        color: var(--COD-neutral2) !important;
         background-color: #231F20 !important;
-        stroke: --COD-neutral2 !important;
+        stroke: var(--COD-neutral2) !important;
     }
 
     button:hover,
     button:focus {
         background-color: #231F20   !important;
-        color: --COD-neutral2  !important;
+        color: var(--COD-neutral2)  !important;
         outline: 2px transparent solid !important;
-        box-shadow: 0 0 0 2px --COD-neutral1, 0 0 0 4px #002e3b, 0 0 4px 8px --COD-neutral1 !important;
+        box-shadow: 0 0 0 2px var(--COD-neutral1), 0 0 0 4px #002e3b, 0 0 4px 8px --COD-neutral1 !important;
         transition: .3s linear;
-        border: --COD-neutral2 1px solid !important;
-        stroke: --COD-neutral2  !important;
+        border: var(--COD-neutral2) 1px solid !important;
+        stroke: var(--COD-neutral2) !important;
     }
     /* Details and Summary styling */
     details {
-        border: 1px solid --COD-neutral2 !important;
+        border: 1px solid var(--COD-neutral2) !important;
         background: #231F20 !important;
     }
 
     summary:hover {
         background: #00131D !important;
-        border: 2px solid --COD-primary !important;
+        border: 2px solid var(--COD-primary) !important;
     }
 
     summary:focus {
         background: #00131D !important;
-        border: 2px solid --COD-primary !important;
+        border: 2px solid var(--COD-primary) !important;
     }
 
     summary:active {
         background: #002E3B !important;
-        border: 2px solid --COD-neutral2 !important;
+        border: 2px solid var(--COD-neutral2) !important;
     }
 
     summary {
-        border: 2px solid --COD-neutral2 !important;
+        border: 2px solid var(--COD-neutral2) !important;
         background: #00131D !important;
     }
 
     /* Styling links to HTML examples */
     #linksToExamples a:hover {
-        color: --COD-secondary !important;
+        color: var(--COD-secondary) !important;
         text-decoration: none !important;
         font-weight: bold !important;
     }
@@ -187,27 +187,27 @@ v
     /* Colour of column and row headings */
     th {
         background: #231F20 !important;
-        color: --COD-neutral2 !important;
+        color: var(--COD-neutral2) !important;
     }
 
     tr#VanityLine {
-        color: --COD-neutral2 !important;
+        color: var(--COD-neutral2) !important;
     }
 
     caption,
     .mobileMat caption {
         display: table-caption;
         text-align: left;
-        background: --COD-neutral4 !important;
+        background: var(--COD-neutral4) !important;
     }
     /* Skip link */
     .skip-link {
-        color: --COD-neutral2 !important;
-        background-color: --COD-neutral4 !important;
+        color: var(--COD-neutral2) !important;
+        background-color: var(--COD-neutral4) !important;
     }
 
     .skip-link:focus {
-        border: --COD-primary solid 1rem !important;
+        border: var(--COD-primary) solid 1rem !important;
         outline: 0px solid #74C9E5 !important;
     }
 
