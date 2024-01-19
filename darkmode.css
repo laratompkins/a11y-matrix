@@ -1,12 +1,12 @@
 
-    /* Replace hex with variables and set COD colors */
+                /* Replace hex with variables and set COD colors */
 :root {
-    –-COD-primary: #97D700;
-    --COD-secondary: #00AB84;
-    --COD-accent: #EEDC00;
-    --COD-accent2: #43B02A;
+    –-COD-primary: #00AB84;
+    --COD-secondary: #97D700;
+    --COD-accent:  #43B02A;
+    --COD-accent2: #EEDC00;
     --COD-neutral1: #fffff4;
-    --COD-neutral2: #E1E8EC;
+    --COD-neutral2: rgb(54, 57, 58);
     --COD-neutral3: #A7ACA2;
     --COD-neutral4: rgb(11, 53, 46);
     }
